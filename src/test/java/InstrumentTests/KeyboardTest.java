@@ -1,5 +1,6 @@
 package InstrumentTests;
 
+import EnumerableLists.ItemType;
 import Instruments.Keyboard;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,7 +17,7 @@ public class KeyboardTest {
 
     @Before
     public void before() {
-        keyboard = new Keyboard(true, PLASTIC, BLACK, PIANO);
+        keyboard = new Keyboard(true, PLASTIC, BLACK, PIANO, ItemType.INSTRUMENT, 49.99, 2, 249.99);
 
     }
 
@@ -41,7 +42,28 @@ public class KeyboardTest {
     }
 
     @Test
+    public void canGetStockPrice() {
+        assertEquals(49.99, keyboard.getStockPrice(), 00);
+    }
+
+    @Test
+    public void canGetStock() {
+        assertEquals(2, keyboard.getStock());
+    }
+
+    @Test
+    public void canGetRetailPrice() {
+        assertEquals(249.99, keyboard.getRetailPrice(), 00);
+    }
+
+    @Test
     public void canPlay() {
         assertEquals("Playing keyboard. Plink plonk.", keyboard.play());
+    }
+
+    @Test
+    public void canGetMarkup() {
+        double markup = keyboard.sell();
+        assertEquals(200.00, markup,00);
     }
 }

@@ -1,5 +1,6 @@
 package InstrumentTests;
 
+import EnumerableLists.ItemType;
 import Instruments.Trumpet;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,7 +17,7 @@ public class TrumpetTest {
 
     @Before
     public void before() {
-        trumpet = new Trumpet(FLUGELHORN, YELLOWBRASS, GOLD, BRASS);
+        trumpet = new Trumpet(FLUGELHORN, YELLOWBRASS, GOLD, BRASS, ItemType.INSTRUMENT, 14.99, 6, 79.99);
 
     }
 
@@ -41,7 +42,28 @@ public class TrumpetTest {
     }
 
     @Test
+    public void canGetStockPrice() {
+        assertEquals(14.99, trumpet.getStockPrice(), 00);
+    }
+
+    @Test
+    public void canGetStock() {
+        assertEquals(6, trumpet.getStock());
+    }
+
+    @Test
+    public void canGetRetailPrice() {
+        assertEquals(79.99, trumpet.getRetailPrice(), 00);
+    }
+
+    @Test
     public void canPlay() {
         assertEquals("Playing my " + trumpet.getColour() +" trumpet. Parp.", trumpet.play());
+    }
+
+    @Test
+    public void canGetMarkup() {
+        double markup = trumpet.sell();
+        assertEquals(65.00, markup,00);
     }
 }

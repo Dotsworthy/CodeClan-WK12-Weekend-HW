@@ -1,5 +1,6 @@
 package InstrumentTests;
 
+import EnumerableLists.ItemType;
 import Instruments.Guitar;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,7 +16,7 @@ public class GuitarTest {
 
     @Before
     public void before() {
-        guitar = new Guitar(6, MAHOGANY, NATURALWOOD, STRING);
+        guitar = new Guitar(6, MAHOGANY, NATURALWOOD, STRING, ItemType.INSTRUMENT, 24.99, 3, 129.99);
 
     }
 
@@ -42,5 +43,26 @@ public class GuitarTest {
     @Test
     public void canPlay() {
         assertEquals("Playing " + guitar.getNoOfStrings() + " string guitar. Strum strum.", guitar.play());
+    }
+
+    @Test
+    public void canGetStockPrice() {
+        assertEquals(24.99, guitar.getStockPrice(), 00);
+    }
+
+    @Test
+    public void canGetStock() {
+        assertEquals(3, guitar.getStock());
+    }
+
+    @Test
+    public void canGetRetailPrice() {
+        assertEquals(129.99, guitar.getRetailPrice(), 00);
+    }
+
+    @Test
+    public void canGetMarkup() {
+        double markup = guitar.sell();
+        assertEquals(105.00, markup,01);
     }
 }
