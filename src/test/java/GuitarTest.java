@@ -1,5 +1,13 @@
+import EnumerableLists.ColourType;
+import EnumerableLists.InstrumentType;
+import EnumerableLists.MaterialType;
 import org.junit.Before;
 import org.junit.Test;
+
+import static EnumerableLists.ColourType.NATURALWOOD;
+import static EnumerableLists.InstrumentType.*;
+import static EnumerableLists.MaterialType.*;
+import static org.junit.Assert.assertEquals;
 
 public class GuitarTest {
 
@@ -7,7 +15,7 @@ public class GuitarTest {
 
     @Before
     public void before() {
-        guitar = new Guitar(6, MaterialType.WOOD, "Natural wood", "Acoustic");
+        guitar = new Guitar(6, MAHOGANY, NATURALWOOD, STRING);
 
     }
 
@@ -18,17 +26,17 @@ public class GuitarTest {
 
     @Test
     public void canGetMaterial() {
-        assertEquals(MaterialType.WOOD, guitar.getMaterial());
+        assertEquals(MAHOGANY, guitar.getMaterial());
     }
-    
+
     @Test
     public void canGetColour() {
-        assertEquals("Natural wood", guitar.getColour());
+        assertEquals(NATURALWOOD, guitar.getColour());
     }
 
     @Test
     public void canGetType() {
-        assertEquals("Acoustic", guitar.getType());
+        assertEquals(STRING, guitar.getType());
     }
 
     @Test
