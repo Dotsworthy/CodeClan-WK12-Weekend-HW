@@ -2,7 +2,7 @@ import EnumerableLists.ColourType;
 import EnumerableLists.InstrumentType;
 import EnumerableLists.MaterialType;
 
-public class Keyboard extends Instrument implements IPlay {
+public class Trumpet extends Instrument implements IPlay {
 
     private boolean hasTouchSensitiveKeys;
 

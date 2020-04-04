@@ -1,7 +1,7 @@
 package EnumerableLists;
 
 public enum MaterialType {
-    BRASS,
+    YELLOWBRASS,
     PLASTIC,
     RUBBER,
     STEEL,
