@@ -1,10 +1,7 @@
-import EnumerableLists.ColourType;
-import EnumerableLists.InstrumentType;
-import EnumerableLists.MaterialType;
 import org.junit.Before;
 import org.junit.Test;
 
-import static EnumerableLists.ColourType.NATURALWOOD;
+import static EnumerableLists.ColourType.*;
 import static EnumerableLists.InstrumentType.*;
 import static EnumerableLists.MaterialType.*;
 import static org.junit.Assert.assertEquals;
