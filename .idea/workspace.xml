@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960a1c92-5623-4e1e-93fb-78b31212f0ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ISell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CorkAndSlideGreaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GuitarStringsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KeyboardBenchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/IPlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trumpet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CorkAndSlideGreaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/CorkAndSlideGreaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/GuitarStringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentTests/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KeyboardBenchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTests/KeyboardBenchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentTests/KeyboardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentTests/TrumpetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
   </component>
   <component name="RecentsManager">
@@ -64,8 +56,8 @@
   <component name="RunManager" selected="JUnit.TrumpetTest">
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="PACKAGE_NAME" value="InstrumentTests" />
+      <option name="MAIN_CLASS_NAME" value="InstrumentTests.GuitarTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,8 +65,8 @@
     </configuration>
     <configuration name="KeyboardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KeyboardTest" />
+      <option name="PACKAGE_NAME" value="InstrumentTests" />
+      <option name="MAIN_CLASS_NAME" value="InstrumentTests.KeyboardTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,8 +74,8 @@
     </configuration>
     <configuration name="TrumpetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
+      <option name="PACKAGE_NAME" value="InstrumentTests" />
+      <option name="MAIN_CLASS_NAME" value="InstrumentTests.TrumpetTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,10 +119,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586000677015" />
-    <state x="508" y="316" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586001982321">
+    <state x="226" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586002071151">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="508" y="316" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1586001982321" />
+    <state x="226" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1586002071151" />
+    <state x="508" y="316" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586002107570">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="316" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1586002107570" />
+    <state x="508" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586002065724">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1586002065724" />
     <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586000153518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -159,10 +159,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585998001830" />
-    <state x="521" y="239" key="chooseDestDirectoryDialog" timestamp="1586001982286">
+    <state x="521" y="239" key="chooseDestDirectoryDialog" timestamp="1586002107520">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="521" y="239" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1586001982286" />
+    <state x="521" y="239" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1586002107520" />
     <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585997432713">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
