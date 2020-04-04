@@ -19,7 +19,8 @@ public class KeyboardBench extends Item implements ISell {
     }
 
     public double sell() {
-        return 0;
+        double markup = this.getRetailPrice() - this.getStockPrice();
+        return markup;
     }
 
     public boolean getSeat() {

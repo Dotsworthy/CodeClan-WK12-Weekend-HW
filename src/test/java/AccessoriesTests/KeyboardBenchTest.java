@@ -50,4 +50,10 @@ public class KeyboardBenchTest {
     public void canGetHeight() {
         assertEquals(200, keyboardBench.getHeight());
     }
+
+    @Test
+    public void canGetMarkup() {
+        double markup = keyboardBench.sell();
+        assertEquals(8.50, markup,00);
+    }
 }
