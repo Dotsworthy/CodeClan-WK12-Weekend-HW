@@ -20,8 +20,8 @@ public class GuitarTest {
     }
 
     @Test
-    public void canGetStrings() {
-        assertEquals(6, guitar.getStrings());
+    public void canGetNoOfStrings() {
+        assertEquals(6, guitar.getNoOfStrings());
     }
 
     @Test
@@ -36,11 +36,11 @@ public class GuitarTest {
 
     @Test
     public void canGetType() {
-        assertEquals(STRING, guitar.getType());
+        assertEquals(STRING, guitar.getInstrument());
     }
 
     @Test
     public void canPlay() {
-        assertEquals("Playing " + guitar.getStrings() + " string guitar. Strum strum.", guitar.play());
+        assertEquals("Playing " + guitar.getNoOfStrings() + " string guitar. Strum strum.", guitar.play());
     }
 }

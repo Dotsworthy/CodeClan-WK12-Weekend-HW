@@ -13,4 +13,16 @@ public abstract class Instrument {
         this.colour = colour;
         this.instrument = instrument;
     }
+
+    public MaterialType getMaterial() {
+        return material;
+    }
+
+    public ColourType getColour() {
+        return colour;
+    }
+
+    public InstrumentType getInstrument() {
+        return instrument;
+    }
 }
