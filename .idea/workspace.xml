@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960a1c92-5623-4e1e-93fb-78b31212f0ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trumpet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentTests/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentTests/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentTests/KeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentTests/KeyboardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentTests/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentTests/TrumpetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ShopPackage/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,7 +51,7 @@
       <recent name="Instruments" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CorkAndSlideGreaseTest">
+  <component name="RunManager" selected="JUnit.ShopTest">
     <configuration name="CorkAndSlideGreaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
       <extension name="coverage">
@@ -88,21 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaysMusicExchange" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InstrumentTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="InstrumentTests" />
-      <option name="MAIN_CLASS_NAME" value="InstrumentTests.GuitarTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KeyboardBenchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
       <extension name="coverage">
@@ -113,6 +92,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="AccessoriesTests" />
       <option name="MAIN_CLASS_NAME" value="AccessoriesTests.KeyboardBenchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.CorkAndSlideGreaseTest" />
         <item itemvalue="JUnit.GuitarStringsTest" />
         <item itemvalue="JUnit.KeyboardBenchTest" />
         <item itemvalue="JUnit.TrumpetTest" />
-        <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,22 +181,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1586000552006" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1586005280527">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586006062951">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586005280527" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1586005280525">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586006062951" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586006062949">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586005280525" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1586005280524">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586006062949" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586006062949">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586005280524" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1586005280525">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586006062949" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586006062950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586005280525" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586006062950" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586005280532">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
