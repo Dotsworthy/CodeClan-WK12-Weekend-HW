@@ -1,3 +1,4 @@
+import Instruments.Keyboard;
 import org.junit.Before;
 import org.junit.Test;
 

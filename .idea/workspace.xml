@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960a1c92-5623-4e1e-93fb-78b31212f0ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/EnumerableLists/TrumpetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ISell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CorkAndSlideGreaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GuitarStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KeyboardBenchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trumpet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/IPlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trumpet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,7 +51,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Actions" />
+      <recent name="Accessories" />
+      <recent name="Instruments" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.TrumpetTest">
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -110,6 +127,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586000677015" />
+    <state x="508" y="316" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586001982321">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="316" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1586001982321" />
     <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586000153518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -138,6 +159,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585998001830" />
+    <state x="521" y="239" key="chooseDestDirectoryDialog" timestamp="1586001982286">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="521" y="239" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1586001982286" />
     <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585997432713">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
