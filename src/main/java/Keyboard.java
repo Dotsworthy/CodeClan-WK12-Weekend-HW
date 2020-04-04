@@ -2,7 +2,7 @@ import EnumerableLists.ColourType;
 import EnumerableLists.InstrumentType;
 import EnumerableLists.MaterialType;
 
-public class Trumpet extends Instrument implements IPlay {
+public class Keyboard extends Instrument implements IPlay{
 
     private boolean hasTouchSensitiveKeys;
 
@@ -17,6 +17,6 @@ public class Trumpet extends Instrument implements IPlay {
     }
 
     public String play() {
-        return "Playing keyboard. Plink plonk.";
+        return "Playing keyboard. Plink plonk";
     }
 }

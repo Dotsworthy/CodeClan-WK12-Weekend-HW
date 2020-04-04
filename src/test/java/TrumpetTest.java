@@ -4,7 +4,7 @@ import org.junit.Test;
 import static EnumerableLists.ColourType.*;
 import static EnumerableLists.InstrumentType.*;
 import static EnumerableLists.MaterialType.*;
-//Is there a better way to import this. I believe the star is not considered the cleanest way?
+import static EnumerableLists.TrumpetType.*;
 import static org.junit.Assert.assertEquals;
 
 public class TrumpetTest {
