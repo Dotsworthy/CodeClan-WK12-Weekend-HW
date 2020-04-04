@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.KeyboardTest">
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
       <option name="PACKAGE_NAME" value="" />
@@ -51,8 +51,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KeyboardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KeyboardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KeyboardTest" />
         <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>
@@ -83,22 +93,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585999588400">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1586000006606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585999588400" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585999588398">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586000006606" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586000044194">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585999588398" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585999588397">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586000044194" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586000044193">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585999588397" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585999588399">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586000044193" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586000044192">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585999588399" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586000044192" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586000044193">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586000044193" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1585998001830">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
