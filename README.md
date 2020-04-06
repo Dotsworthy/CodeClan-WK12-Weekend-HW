@@ -1,4 +1,4 @@
-# Rays-Music-Exchange-CodeClan-WK12-Weekend-HW
+# Rays Music Exchange CodeClan Weekend Homework
 
 CodeClan project based on the following brief:
 
